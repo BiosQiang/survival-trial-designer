@@ -504,7 +504,7 @@ eta_year     <- ',res$eta_year_perc,'  # 年脱落率 / Annual dropout rate
 # 参数推导 / Derived parameters
 lambda_ctrl  <- log(2) / median_c
 lambda_trt   <- log(2) / median_t
-hr           <- lambda_ctrl / lambda_trt
+hr           <- lambda_trt / lambda_ctrl
 eta_monthly  <- log(1 / (1 - eta_year)) / 12
 minfup       <- Ts - Tr
 
