@@ -1,6 +1,6 @@
 # Survival Trial Designer
 
-A Shiny app for survival trial sample size planning using gsDesign, with interactive plots and export.
+A Shiny app for survival trial sample size planning using 'gsDesign' package in R, with interactive plots and export.
 
 ## How to use it
 https://clinicaltrial.shinyapps.io/clinicaltrial/
